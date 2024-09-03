@@ -21,11 +21,11 @@
 
 module PCAdder(PCResult, PCAddResult);
 
-    input [31:0] PCResult;
+    input [31:0] PCResult;         // 32-bit input representing the current PC value
+    output [31:0] PCAddResult;     // 32-bit output representing the next PC value
 
-    output [31:0] PCAddResult;
-
-    /* Please fill in the implementation here... */
+    // Add 4 to the current PC value to get the next PC value
+    assign PCAddResult = PCResult + 4;
 
 endmodule
 
