@@ -26,7 +26,7 @@ module InstructionMemory(Address, Instruction);
     // Read the instruction from the memory
     always @(Address) begin
         // Use bits [8:2] of the address to index into the memory
-        Instruction <= memory[Address[8:2]];
+        Instruction = memory[Address[8:2]];
     end
 
 endmodule
