@@ -15,17 +15,16 @@ module InstructionMemory(Address, Instruction);
 
     reg [31:0] memory [0:127];   // 128 words of 32-bit memory
 
-    // Initialize memory with values (memory[i] = i * 3)
     integer i;
     initial begin
         for (i = 0; i < 128; i = i + 1) begin
-            memory[i] = i * 3;
+            memory[i] = i * 32'b11;
         end
     end
 
-    // Read the instruction from the memory
+
     always @(Address) begin
-        // Use bits [8:2] of the address to index into the memory
+        
         Instruction <= memory[Address[8:2]];
     end
 
