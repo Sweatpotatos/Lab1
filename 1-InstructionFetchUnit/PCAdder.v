@@ -25,7 +25,6 @@ module PCAdder(PCResult, PCAddResult);
     output [31:0] PCAddResult;     // 32-bit output representing the next PC value
 
     // Add 4 to the current PC value to get the next PC value
-    assign PCAddResult = PCResult + 4;
+    assign PCAddResult = PCResult + 32'b100;
 
 endmodule
-
