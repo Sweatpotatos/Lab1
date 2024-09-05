@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module TopDesign(
+module Top(
     input wire Clk,          // System clock
     input wire Reset,        // System reset
     output wire [6:0] out7,  // 7-segment display outputs
@@ -12,10 +12,12 @@ module TopDesign(
     wire [31:0] PCResult;    // 32-bit PCResult from the InstructionFetchUnit
     wire ClkDivOut;          // Output of the clock divider
 
+
+
     // Instantiate Clock Divider
     ClkDiv clk_div(
         .Clk(Clk),
-        .Reset(1'b0),       // Reset of ClkDiv must be inactive if using synchronous Reset
+        .Rst(1'b0),       // Reset of ClkDiv must be inactive if using synchronous Reset
         .ClkOut(ClkDivOut)
     );
 
@@ -32,8 +34,9 @@ module TopDesign(
         .Clk(Clk),                   // Use the original clock for display multiplexing
         .NumberA(Instruction[15:0]), // Lower 16 bits of the Instruction
         .NumberB(PCResult[15:0]),    // Lower 16 bits of the PCResult
-        .out7(out7),                 // Connect to the 7-segment display outputs
-        .en_out(en_out)              // Connect to the 7-segment enable outputs
+        .out7(out7),                // Connect to the 7-segment display outputs, OUTPUT OF THE instruction value
+        .en_out(en_out)              // Connect to the 7-segment enable outputs, Output of the memory address
     );
 
 endmodule
+
