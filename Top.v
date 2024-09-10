@@ -1,5 +1,5 @@
 `timescale 1ns / 1ps
-
+//Group 20, Yaolei Bian, Mohammed Alrkhayes, Allen Leinberger
 module Top(
     input wire Clk,          // System clock
     input wire Reset,        // System reset
@@ -13,15 +13,13 @@ module Top(
     wire ClkDivOut;          // Output of the clock divider
 
 
-
-    // Instantiate Clock Divider
     ClkDiv clk_div(
         .Clk(Clk),
-        .Rst(1'b0),       // Reset of ClkDiv must be inactive if using synchronous Reset
+        .Rst(1'b0),      
         .ClkOut(ClkDivOut)
     );
 
-    // Instantiate Instruction Fetch Unit
+  
     InstructionFetchUnit ifu(
         .Instruction(Instruction), 
         .PCResult(PCResult), 
@@ -31,12 +29,11 @@ module Top(
 
     // Instantiate Two4DigitDisplay
     Two4DigitDisplay display(
-        .Clk(Clk),                   // Use the original clock for display multiplexing
-        .NumberA(Instruction[15:0]), // Lower 16 bits of the Instruction
-        .NumberB(PCResult[15:0]),    // Lower 16 bits of the PCResult
-        .out7(out7),                // Connect to the 7-segment display outputs, OUTPUT OF THE instruction value
-        .en_out(en_out)              // Connect to the 7-segment enable outputs, Output of the memory address
+        .Clk(Clk),                
+        .NumberA(Instruction[15:0]), 
+        .NumberB(PCResult[15:0]),    
+        .out7(out7),               
+        .en_out(en_out)    
     );
 
 endmodule
-
