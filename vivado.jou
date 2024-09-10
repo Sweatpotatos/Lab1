@@ -1,0 +1,55 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Sep  4 17:02:32 2024
+# Process ID: 2548
+# Current directory: C:/Users/ajsop/Documents/GitHub/Lab1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19184 C:\Users\ajsop\Documents\GitHub\Lab1\Lab1.xpr
+# Log file: C:/Users/ajsop/Documents/GitHub/Lab1/vivado.log
+# Journal file: C:/Users/ajsop/Documents/GitHub/Lab1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ajsop/Documents/GitHub/Lab1/Lab1.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+save_project_as project_1 C:/Users/ajsop/Documents/GitHub/project_1 -exclude_run_results -force
+import_files
+update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/4-ClockDivider/ClkDiv.v -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/4-ClockDivider/ClkDiv.v -filesets [get_filesets *]
+update_compile_order -fileset sources_1
+update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/InstructionFetchUnit.v -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/InstructionFetchUnit.v -filesets [get_filesets *]
+update_compile_order -fileset sources_1
+update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/InstructionMemory.v -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/InstructionMemory.v -filesets [get_filesets *]
+update_compile_order -fileset sources_1
+update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/PCAdder.v -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/PCAdder.v -filesets [get_filesets *]
+update_compile_order -fileset sources_1
+update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/ProgramCounter.v -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/ProgramCounter.v -filesets [get_filesets *]
+update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/ProgramCounter.v -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/ProgramCounter.v -filesets [get_filesets *]
+update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/5-Two4DigitDisplay/SevenSegment.v -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/5-Two4DigitDisplay/SevenSegment.v -filesets [get_filesets *]
+update_compile_order -fileset sources_1
+update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/5-Two4DigitDisplay/Two4DigitDisplay.v -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/5-Two4DigitDisplay/Two4DigitDisplay.v -filesets [get_filesets *]
+update_compile_order -fileset sources_1
+update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/5-Two4DigitDisplay/Two4DigitDisplay.xdc -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/5-Two4DigitDisplay/Two4DigitDisplay.xdc -filesets [get_filesets *]
+update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/InstructionMemory_tb.v -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/InstructionMemory_tb.v -filesets [get_filesets *]
+update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/PCAdder_tb.v -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/PCAdder_tb.v -filesets [get_filesets *]
+update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/ProgramCounter_tb.v -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/ProgramCounter_tb.v -filesets [get_filesets *]
+launch_simulation
+launch_simulation
+close_project
+create_project project_2 C:/Users/ajsop/Documents/GitHub/project_2 -part xc7a100tcsg324-1
+add_files -norecurse {C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/ProgramCounter.v C:/Users/ajsop/Documents/GitHub/Lab1/5-Two4DigitDisplay/SevenSegment.v C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/InstructionMemory.v C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/InstructionFetchUnit.v C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/PCAdder.v C:/Users/ajsop/Documents/GitHub/Lab1/4-ClockDivider/ClkDiv.v C:/Users/ajsop/Documents/GitHub/Lab1/5-Two4DigitDisplay/Two4DigitDisplay.v}
+import_files -force -norecurse
+import_files -fileset constrs_1 -force -norecurse C:/Users/ajsop/Documents/GitHub/Lab1/5-Two4DigitDisplay/Two4DigitDisplay.xdc
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+import_files -norecurse C:/Users/ajsop/Documents/GitHub/Lab1/Lab1.srcs/sources_1/new/TopDesign.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_1 -norecurse {C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/PCAdder_tb.v C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/ProgramCounter_tb.v C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/InstructionMemory_tb.v}
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+source TopDesign.tcl
+run 20 us
+close_sim

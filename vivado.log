@@ -1,0 +1,329 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Sep  4 17:02:32 2024
+# Process ID: 2548
+# Current directory: C:/Users/ajsop/Documents/GitHub/Lab1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19184 C:\Users\ajsop\Documents\GitHub\Lab1\Lab1.xpr
+# Log file: C:/Users/ajsop/Documents/GitHub/Lab1/vivado.log
+# Journal file: C:/Users/ajsop/Documents/GitHub/Lab1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ajsop/Documents/GitHub/Lab1/Lab1.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Yaole/Lab1' since last save.
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionXsim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionModelSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionQuesta
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionXcelium
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionVCS
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionRiviera
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionActiveHdl
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionXsim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionModelSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionQuesta
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionXcelium
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionVCS
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionRiviera
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionActiveHdl
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/Users/ajsop/Documents/GitHub/Lab1/Lab1.gen/sources_1', nor could it be found using path 'C:/Users/Yaole/Lab1/Lab1.gen/sources_1'.
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name EnableResourceEstimation
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimCompileState
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/Users/ajsop/Documents/GitHub/Lab1/Lab1.ip_user_files', nor could it be found using path 'C:/Users/Yaole/Lab1/Lab1.ip_user_files'.
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name ClassicSocBoot
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name LocalIPRepoLeafDirName
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/4-ClockDivider/ClkDiv.v', nor could it be found using path 'C:/Users/Yaole/OneDrive/Desktop/Resources/4-ClockDivider/ClkDiv.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/InstructionFetchUnit.v', nor could it be found using path 'C:/Users/Yaole/OneDrive/Desktop/Resources/1-InstructionFetchUnit/InstructionFetchUnit.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/InstructionMemory.v', nor could it be found using path 'C:/Users/Yaole/OneDrive/Desktop/Resources/1-InstructionFetchUnit/InstructionMemory.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/PCAdder.v', nor could it be found using path 'C:/Users/Yaole/OneDrive/Desktop/Resources/1-InstructionFetchUnit/PCAdder.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/ProgramCounter.v', nor could it be found using path 'C:/Users/Yaole/OneDrive/Desktop/Resources/1-InstructionFetchUnit/ProgramCounter.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/5-Two4DigitDisplay/SevenSegment.v', nor could it be found using path 'C:/Users/Yaole/OneDrive/Desktop/Resources/5-Two4DigitDisplay/SevenSegment.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/5-Two4DigitDisplay/Two4DigitDisplay.v', nor could it be found using path 'C:/Users/Yaole/OneDrive/Desktop/Resources/5-Two4DigitDisplay/Two4DigitDisplay.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/5-Two4DigitDisplay/Two4DigitDisplay.xdc', nor could it be found using path 'C:/Users/Yaole/OneDrive/Desktop/Resources/5-Two4DigitDisplay/Two4DigitDisplay.xdc'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/InstructionMemory_tb.v', nor could it be found using path 'C:/Users/Yaole/OneDrive/Desktop/Resources/1-InstructionFetchUnit/InstructionMemory_tb.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/PCAdder_tb.v', nor could it be found using path 'C:/Users/Yaole/OneDrive/Desktop/Resources/1-InstructionFetchUnit/PCAdder_tb.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/ProgramCounter_tb.v', nor could it be found using path 'C:/Users/Yaole/OneDrive/Desktop/Resources/1-InstructionFetchUnit/ProgramCounter_tb.v'.
+Scanning sources...
+Finished scanning sources
+CRITICAL WARNING: [Project 1-192] Failed to load run synth_1. Strategy Vivado Synthesis Defaults (Vivado Synthesis 2024) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run impl_1. Strategy Vivado Implementation Defaults (Vivado Implementation 2024) not recognized by Vivado. 
+
+WARNING: [Project 1-231] Project 'Lab1.xpr' was created with a future version and may or may not perform reliably with this version of Vivado. It has been opened in read-only mode for the protection of unrecognized data. Use 'File | Save Project As...' if you wish to alter a copy of the project.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:12 . Memory (MB): peak = 1005.582 ; gain = 0.000
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+save_project_as project_1 C:/Users/ajsop/Documents/GitHub/project_1 -exclude_run_results -force
+INFO: [Coretcl 2-133] re-setting run 'synth_1'...
+INFO: [Coretcl 2-133] re-setting run 'impl_1'...
+save_project_as: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 1005.582 ; gain = 0.000
+import_files
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+WARNING: [filemgmt 20-342] File / dir doesn't exist, skipping: C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/5-Two4DigitDisplay/Two4DigitDisplay.xdc
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_1'
+WARNING: [filemgmt 20-342] File / dir doesn't exist, skipping: C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/InstructionMemory_tb.v
+WARNING: [filemgmt 20-342] File / dir doesn't exist, skipping: C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/PCAdder_tb.v
+WARNING: [filemgmt 20-342] File / dir doesn't exist, skipping: C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/ProgramCounter_tb.v
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+WARNING: [filemgmt 20-342] File / dir doesn't exist, skipping: C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/4-ClockDivider/ClkDiv.v
+WARNING: [filemgmt 20-342] File / dir doesn't exist, skipping: C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/InstructionFetchUnit.v
+WARNING: [filemgmt 20-342] File / dir doesn't exist, skipping: C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/InstructionMemory.v
+WARNING: [filemgmt 20-342] File / dir doesn't exist, skipping: C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/PCAdder.v
+WARNING: [filemgmt 20-342] File / dir doesn't exist, skipping: C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/ProgramCounter.v
+WARNING: [filemgmt 20-342] File / dir doesn't exist, skipping: C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/5-Two4DigitDisplay/SevenSegment.v
+WARNING: [filemgmt 20-342] File / dir doesn't exist, skipping: C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/5-Two4DigitDisplay/Two4DigitDisplay.v
+update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/4-ClockDivider/ClkDiv.v -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/4-ClockDivider/ClkDiv.v -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/4-ClockDivider/ClkDiv.v' with file 'C:/Users/ajsop/Documents/GitHub/Lab1/4-ClockDivider/ClkDiv.v'.
+update_compile_order -fileset sources_1
+update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/InstructionFetchUnit.v -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/InstructionFetchUnit.v -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/InstructionFetchUnit.v' with file 'C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/InstructionFetchUnit.v'.
+update_compile_order -fileset sources_1
+update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/InstructionMemory.v -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/InstructionMemory.v -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/InstructionMemory.v' with file 'C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/InstructionMemory.v'.
+update_compile_order -fileset sources_1
+update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/PCAdder.v -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/PCAdder.v -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/PCAdder.v' with file 'C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/PCAdder.v'.
+update_compile_order -fileset sources_1
+update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/ProgramCounter.v -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/ProgramCounter.v -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/ProgramCounter.v' with file 'C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/ProgramCounter.v'.
+update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/ProgramCounter.v -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/ProgramCounter.v -filesets [get_filesets *]
+update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/5-Two4DigitDisplay/SevenSegment.v -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/5-Two4DigitDisplay/SevenSegment.v -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/5-Two4DigitDisplay/SevenSegment.v' with file 'C:/Users/ajsop/Documents/GitHub/Lab1/5-Two4DigitDisplay/SevenSegment.v'.
+update_compile_order -fileset sources_1
+update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/5-Two4DigitDisplay/Two4DigitDisplay.v -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/5-Two4DigitDisplay/Two4DigitDisplay.v -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/5-Two4DigitDisplay/Two4DigitDisplay.v' with file 'C:/Users/ajsop/Documents/GitHub/Lab1/5-Two4DigitDisplay/Two4DigitDisplay.v'.
+update_compile_order -fileset sources_1
+update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/5-Two4DigitDisplay/Two4DigitDisplay.xdc -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/5-Two4DigitDisplay/Two4DigitDisplay.xdc -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/5-Two4DigitDisplay/Two4DigitDisplay.xdc' with file 'C:/Users/ajsop/Documents/GitHub/Lab1/5-Two4DigitDisplay/Two4DigitDisplay.xdc'.
+update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/InstructionMemory_tb.v -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/InstructionMemory_tb.v -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/InstructionMemory_tb.v' with file 'C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/InstructionMemory_tb.v'.
+update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/PCAdder_tb.v -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/PCAdder_tb.v -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/PCAdder_tb.v' with file 'C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/PCAdder_tb.v'.
+update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/ProgramCounter_tb.v -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/ProgramCounter_tb.v -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/ProgramCounter_tb.v' with file 'C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/ProgramCounter_tb.v'.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/ajsop/Documents/GitHub/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TopDesign' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ajsop/Documents/GitHub/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TopDesign_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ajsop/Documents/GitHub/Lab1/4-ClockDivider/ClkDiv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ClkDiv
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/InstructionFetchUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionFetchUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/PCAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/ProgramCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ajsop/Documents/GitHub/Lab1/5-Two4DigitDisplay/SevenSegment.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SevenSegment
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ajsop/Documents/GitHub/Lab1/5-Two4DigitDisplay/Two4DigitDisplay.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Two4DigitDisplay
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ajsop/Documents/GitHub/project_1/project_1.srcs/sources_1/new/TopDesign.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopDesign
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ajsop/Documents/GitHub/project_1/project_1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ajsop/Documents/GitHub/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab -wto 90fe0fb9da234456972bf457447bee55 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopDesign_behav xil_defaultlib.TopDesign xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 90fe0fb9da234456972bf457447bee55 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopDesign_behav xil_defaultlib.TopDesign xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'Reset' on this module [C:/Users/ajsop/Documents/GitHub/project_1/project_1.srcs/sources_1/new/TopDesign.v:18]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/ajsop/Documents/GitHub/project_1/project_1.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/ajsop/Documents/GitHub/project_1/project_1.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1005.582 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/ajsop/Documents/GitHub/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TopDesign' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ajsop/Documents/GitHub/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TopDesign_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ajsop/Documents/GitHub/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab -wto 90fe0fb9da234456972bf457447bee55 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopDesign_behav xil_defaultlib.TopDesign xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 90fe0fb9da234456972bf457447bee55 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopDesign_behav xil_defaultlib.TopDesign xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'Reset' on this module [C:/Users/ajsop/Documents/GitHub/project_1/project_1.srcs/sources_1/new/TopDesign.v:18]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/ajsop/Documents/GitHub/project_1/project_1.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/ajsop/Documents/GitHub/project_1/project_1.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+close_project
+create_project project_2 C:/Users/ajsop/Documents/GitHub/project_2 -part xc7a100tcsg324-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+add_files -norecurse {C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/ProgramCounter.v C:/Users/ajsop/Documents/GitHub/Lab1/5-Two4DigitDisplay/SevenSegment.v C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/InstructionMemory.v C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/InstructionFetchUnit.v C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/PCAdder.v C:/Users/ajsop/Documents/GitHub/Lab1/4-ClockDivider/ClkDiv.v C:/Users/ajsop/Documents/GitHub/Lab1/5-Two4DigitDisplay/Two4DigitDisplay.v}
+import_files -force -norecurse
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+import_files -fileset constrs_1 -force -norecurse C:/Users/ajsop/Documents/GitHub/Lab1/5-Two4DigitDisplay/Two4DigitDisplay.xdc
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+import_files -norecurse C:/Users/ajsop/Documents/GitHub/Lab1/Lab1.srcs/sources_1/new/TopDesign.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_1 -norecurse {C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/PCAdder_tb.v C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/ProgramCounter_tb.v C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/InstructionMemory_tb.v}
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/ajsop/Documents/GitHub/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TopDesign' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ajsop/Documents/GitHub/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TopDesign_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ajsop/Documents/GitHub/project_2/project_2.srcs/sources_1/imports/Lab1/4-ClockDivider/ClkDiv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ClkDiv
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ajsop/Documents/GitHub/project_2/project_2.srcs/sources_1/imports/Lab1/1-InstructionFetchUnit/InstructionFetchUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionFetchUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ajsop/Documents/GitHub/project_2/project_2.srcs/sources_1/imports/Lab1/1-InstructionFetchUnit/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ajsop/Documents/GitHub/project_2/project_2.srcs/sources_1/imports/Lab1/1-InstructionFetchUnit/PCAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ajsop/Documents/GitHub/project_2/project_2.srcs/sources_1/imports/Lab1/1-InstructionFetchUnit/ProgramCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ajsop/Documents/GitHub/project_2/project_2.srcs/sources_1/imports/Lab1/5-Two4DigitDisplay/SevenSegment.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SevenSegment
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ajsop/Documents/GitHub/project_2/project_2.srcs/sources_1/imports/Lab1/5-Two4DigitDisplay/Two4DigitDisplay.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Two4DigitDisplay
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ajsop/Documents/GitHub/project_2/project_2.srcs/sources_1/imports/new/TopDesign.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopDesign
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ajsop/Documents/GitHub/project_2/project_2.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ajsop/Documents/GitHub/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto 42218a2aef7d4d809dc7ae921bfd1a84 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopDesign_behav xil_defaultlib.TopDesign xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 42218a2aef7d4d809dc7ae921bfd1a84 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopDesign_behav xil_defaultlib.TopDesign xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'Reset' on this module [C:/Users/ajsop/Documents/GitHub/project_2/project_2.srcs/sources_1/imports/new/TopDesign.v:18]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/ajsop/Documents/GitHub/project_2/project_2.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/ajsop/Documents/GitHub/project_2/project_2.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/ajsop/Documents/GitHub/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TopDesign' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ajsop/Documents/GitHub/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TopDesign_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ajsop/Documents/GitHub/project_2/project_2.srcs/sources_1/imports/Lab1/4-ClockDivider/ClkDiv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ClkDiv
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ajsop/Documents/GitHub/project_2/project_2.srcs/sources_1/imports/Lab1/1-InstructionFetchUnit/InstructionFetchUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionFetchUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ajsop/Documents/GitHub/project_2/project_2.srcs/sources_1/imports/Lab1/1-InstructionFetchUnit/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ajsop/Documents/GitHub/project_2/project_2.srcs/sources_1/imports/Lab1/1-InstructionFetchUnit/PCAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ajsop/Documents/GitHub/project_2/project_2.srcs/sources_1/imports/Lab1/1-InstructionFetchUnit/ProgramCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ajsop/Documents/GitHub/project_2/project_2.srcs/sources_1/imports/Lab1/5-Two4DigitDisplay/SevenSegment.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SevenSegment
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ajsop/Documents/GitHub/project_2/project_2.srcs/sources_1/imports/Lab1/5-Two4DigitDisplay/Two4DigitDisplay.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Two4DigitDisplay
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ajsop/Documents/GitHub/project_2/project_2.srcs/sources_1/imports/new/TopDesign.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopDesign
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ajsop/Documents/GitHub/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto 42218a2aef7d4d809dc7ae921bfd1a84 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopDesign_behav xil_defaultlib.TopDesign xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 42218a2aef7d4d809dc7ae921bfd1a84 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopDesign_behav xil_defaultlib.TopDesign xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/ajsop/Documents/GitHub/project_2/project_2.srcs/sources_1/imports/Lab1/4-ClockDivider/ClkDiv.v" Line 1. Module ClkDiv doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ajsop/Documents/GitHub/project_2/project_2.srcs/sources_1/imports/Lab1/4-ClockDivider/ClkDiv.v" Line 1. Module ClkDiv doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ClkDiv
+Compiling module xil_defaultlib.ProgramCounter
+Compiling module xil_defaultlib.PCAdder
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.InstructionFetchUnit
+Compiling module xil_defaultlib.SevenSegment
+Compiling module xil_defaultlib.Two4DigitDisplay
+Compiling module xil_defaultlib.TopDesign
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TopDesign_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/ajsop/Documents/GitHub/project_2/project_2.sim/sim_1/behav/xsim/xsim.dir/TopDesign_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed Sep  4 17:16:54 2024...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1005.582 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/ajsop/Documents/GitHub/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TopDesign_behav -key {Behavioral:sim_1:Functional:TopDesign} -tclbatch {TopDesign.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source TopDesign.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TopDesign_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:14 . Memory (MB): peak = 1005.582 ; gain = 0.000
+run 20 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1005.582 ; gain = 0.000
+exit

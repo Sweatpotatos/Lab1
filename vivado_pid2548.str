@@ -1,0 +1,1082 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 2548
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Wed Sep 04 17:03:11 MST 2024
+Time zone: 	Mountain Standard Time (America/Phoenix)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 3240x2160
+Screen resolution (DPI): 200
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=24
+Scale size: 48
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	ajsop
+User home directory: C:/Users/ajsop
+User working directory: C:/Users/ajsop/Documents/GitHub/Lab1
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.2
+RDI_DATADIR: C:/Xilinx/Vivado/2020.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/ajsop/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/ajsop/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/ajsop/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/ajsop/Documents/GitHub/Lab1/vivado.log
+Vivado journal file location: 	C:/Users/ajsop/Documents/GitHub/Lab1/vivado.jou
+Engine tmp dir: 	C:/Users/ajsop/Documents/GitHub/Lab1/.Xil/Vivado-2548-DESKTOP-0SHDMCI
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.2
+
+
+GUI allocated memory:	145 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,012 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// HOptionPane Warning: 'This project was created with a future version of Vivado. It will be opened in read-only mode for the protection of unrecognized data.  Please use 'File | Save Project As...' if you need to alter a copy of this project. The project may or may not open reliably with this version of Vivado. OK to proceed and open the project? (Future Project Version)'
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 86 MB. Current time: 9/4/24, 5:03:12 PM MST
+// bz (cr):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\ajsop\Documents\GitHub\Lab1\Lab1.xpr. Version: Vivado v2024.1 
+selectButton("OptionPane.button", "OK"); // JButton
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/ajsop/Documents/GitHub/Lab1/Lab1.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/ajsop/Documents/GitHub/Lab1/Lab1.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/Yaole/Lab1' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 126 MB (+129825kb) [00:00:40]
+// [Engine Memory]: 1,012 MB (+909806kb) [00:00:40]
+// [GUI Memory]: 144 MB (+12172kb) [00:00:40]
+// WARNING: HEventQueue.dispatchEvent() is taking  5707 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:12 . Memory (MB): peak = 1005.582 ; gain = 0.000 
+// Project name: Lab1; location: C:/Users/ajsop/Documents/GitHub/Lab1; part: xc7a100tcsg324-1
+// Elapsed time: 13 seconds
+dismissDialog("Open Project"); // bz
+// z (cr): Project is Read-Only: addNotify
+// a (cr): Critical Messages: addNotify
+selectButton(PAResourceOtoP.Project_SAVE_PROJECT_AS, "Save Project As..."); // a
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Project is Read-Only"); // z
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+// [GUI Memory]: 152 MB (+234kb) [00:00:55]
+dismissDialog("Critical Messages"); // a
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ac
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent"); // ah
+selectMenuItem(PAResourceCommand.PACommandNames_SAVE_PROJECT_AS, "Save As..."); // ak
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ac
+// Run Command: PAResourceCommand.PACommandNames_SAVE_PROJECT_AS
+// aD (cr): Save Project As: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'o' command handler elapsed time: 10 seconds
+// TclEventType: PROJECT_RENAME
+dismissDialog("Save Project As"); // aD
+// TclEventType: FILE_SET_CHANGE
+// bz (cr):  Save Project As : addNotify
+// Tcl Message: save_project_as project_1 C:/Users/ajsop/Documents/GitHub/project_1 -exclude_run_results -force 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PROJECT_RENAME
+// WARNING: HEventQueue.dispatchEvent() is taking  1109 ms.
+// TclEventType: RUN_RESET
+// Tcl Message: INFO: [Coretcl 2-133] re-setting run 'synth_1'... 
+// TclEventType: RUN_RESET
+// Tcl Message: INFO: [Coretcl 2-133] re-setting run 'impl_1'... 
+// Tcl Message: save_project_as: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 1005.582 ; gain = 0.000 
+// bz (cr):  Save Constraints : addNotify
+dismissDialog("Save Constraints"); // bz
+// Tcl Message: import_files 
+// Tcl Message: INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1' 
+// Tcl Message: INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_1' 
+// Tcl Message: INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1' 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v)]", 2, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v)]", 2, true, false, false, false, false, true); // D - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, InstructionFetchUnit.v]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, ClkDiv.v]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, ClkDiv.v]", 2, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_REPLACE_FILE, "Replace File..."); // ak
+// Run Command: PAResourceCommand.PACommandNames_SRC_REPLACE_FILE
+// Elapsed time: 26 seconds
+setFileChooser("C:/Users/ajsop/Documents/GitHub/Lab1/4-ClockDivider/ClkDiv.v");
+// 'dN' command handler elapsed time: 26 seconds
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 164 MB (+4597kb) [00:02:09]
+// Tcl Message: update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/4-ClockDivider/ClkDiv.v -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/4-ClockDivider/ClkDiv.v -filesets [get_filesets *] 
+// Tcl Message: INFO: [filemgmt 20-762] Replacing file 'C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/4-ClockDivider/ClkDiv.v' with file 'C:/Users/ajsop/Documents/GitHub/Lab1/4-ClockDivider/ClkDiv.v'. 
+// bz (cr):  Replace File : addNotify
+dismissDialog("Replace File"); // bz
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, InstructionFetchUnit.v]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, InstructionFetchUnit.v]", 2, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_REPLACE_FILE, "Replace File..."); // ak
+// Run Command: PAResourceCommand.PACommandNames_SRC_REPLACE_FILE
+setFileChooser("C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/InstructionFetchUnit.v");
+// 'dN' command handler elapsed time: 5 seconds
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/InstructionFetchUnit.v -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/InstructionFetchUnit.v -filesets [get_filesets *] 
+// Tcl Message: INFO: [filemgmt 20-762] Replacing file 'C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/InstructionFetchUnit.v' with file 'C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/InstructionFetchUnit.v'. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, InstructionMemory.v]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, InstructionMemory.v]", 2, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_REPLACE_FILE, "Replace File..."); // ak
+// Run Command: PAResourceCommand.PACommandNames_SRC_REPLACE_FILE
+setFileChooser("C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/InstructionMemory.v");
+// 'dN' command handler elapsed time: 3 seconds
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/InstructionMemory.v -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/InstructionMemory.v -filesets [get_filesets *] 
+// Tcl Message: INFO: [filemgmt 20-762] Replacing file 'C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/InstructionMemory.v' with file 'C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/InstructionMemory.v'. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, PCAdder.v]", 2, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_REPLACE_FILE, "Replace File..."); // ak
+// Run Command: PAResourceCommand.PACommandNames_SRC_REPLACE_FILE
+setFileChooser("C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/PCAdder.v");
+// 'dN' command handler elapsed time: 7 seconds
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/PCAdder.v -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/PCAdder.v -filesets [get_filesets *] 
+// Tcl Message: INFO: [filemgmt 20-762] Replacing file 'C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/PCAdder.v' with file 'C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/PCAdder.v'. 
+// bz (cr):  Replace File : addNotify
+dismissDialog("Replace File"); // bz
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, ProgramCounter.v]", 2, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_REPLACE_FILE, "Replace File..."); // ak
+// Run Command: PAResourceCommand.PACommandNames_SRC_REPLACE_FILE
+setFileChooser("C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/ProgramCounter.v");
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/ProgramCounter.v -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/ProgramCounter.v -filesets [get_filesets *] 
+// Tcl Message: INFO: [filemgmt 20-762] Replacing file 'C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/ProgramCounter.v' with file 'C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/ProgramCounter.v'. 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, ProgramCounter.v]", 2, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_REPLACE_FILE, "Replace File..."); // ak
+// Run Command: PAResourceCommand.PACommandNames_SRC_REPLACE_FILE
+setFileChooser("C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/ProgramCounter.v");
+// Tcl Message: update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/ProgramCounter.v -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/ProgramCounter.v -filesets [get_filesets *] 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, SevenSegment.v]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, SevenSegment.v]", 3, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_REPLACE_FILE, "Replace File..."); // ak
+// Run Command: PAResourceCommand.PACommandNames_SRC_REPLACE_FILE
+setFileChooser("C:/Users/ajsop/Documents/GitHub/Lab1/5-Two4DigitDisplay/SevenSegment.v");
+// 'dN' command handler elapsed time: 6 seconds
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/5-Two4DigitDisplay/SevenSegment.v -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/5-Two4DigitDisplay/SevenSegment.v -filesets [get_filesets *] 
+// Tcl Message: INFO: [filemgmt 20-762] Replacing file 'C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/5-Two4DigitDisplay/SevenSegment.v' with file 'C:/Users/ajsop/Documents/GitHub/Lab1/5-Two4DigitDisplay/SevenSegment.v'. 
+// bz (cr):  Replace File : addNotify
+dismissDialog("Replace File"); // bz
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, Two4DigitDisplay.v]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, Two4DigitDisplay.v]", 4, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_REPLACE_FILE, "Replace File..."); // ak
+// Run Command: PAResourceCommand.PACommandNames_SRC_REPLACE_FILE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+setFileChooser("C:/Users/ajsop/Documents/GitHub/Lab1/5-Two4DigitDisplay/Two4DigitDisplay.v");
+// 'dN' command handler elapsed time: 8 seconds
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/5-Two4DigitDisplay/Two4DigitDisplay.v -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/5-Two4DigitDisplay/Two4DigitDisplay.v -filesets [get_filesets *] 
+// Tcl Message: INFO: [filemgmt 20-762] Replacing file 'C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/5-Two4DigitDisplay/Two4DigitDisplay.v' with file 'C:/Users/ajsop/Documents/GitHub/Lab1/5-Two4DigitDisplay/Two4DigitDisplay.v'. 
+// bz (cr):  Replace File : addNotify
+dismissDialog("Replace File"); // bz
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 5); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Two4DigitDisplay.xdc]", 7, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Two4DigitDisplay.xdc]", 7, false, false, false, false, false, true); // D - Double Click
+// ag (cr): Unable to Open File: addNotify
+selectButton(PAResourceOtoP.OpenFileAction_OK, "OK"); // a
+dismissDialog("Unable to Open File"); // ag
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Two4DigitDisplay.xdc]", 7, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_REPLACE_FILE, "Replace File..."); // ak
+// Run Command: PAResourceCommand.PACommandNames_SRC_REPLACE_FILE
+setFileChooser("C:/Users/ajsop/Documents/GitHub/Lab1/5-Two4DigitDisplay/Two4DigitDisplay.xdc");
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/5-Two4DigitDisplay/Two4DigitDisplay.xdc -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/5-Two4DigitDisplay/Two4DigitDisplay.xdc -filesets [get_filesets *] 
+// Tcl Message: INFO: [filemgmt 20-762] Replacing file 'C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/5-Two4DigitDisplay/Two4DigitDisplay.xdc' with file 'C:/Users/ajsop/Documents/GitHub/Lab1/5-Two4DigitDisplay/Two4DigitDisplay.xdc'. 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 8); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 9); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Non-module Files]", 10); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Non-module Files, InstructionMemory_tb.v]", 11, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Non-module Files, InstructionMemory_tb.v]", 11, false, false, false, false, false, true); // D - Double Click
+// ag (cr): Unable to Open File: addNotify
+selectButton(PAResourceOtoP.OpenFileAction_OK, "OK"); // a
+selectButton(PAResourceOtoP.OpenFileAction_OK, "OK"); // a
+selectButton(PAResourceOtoP.OpenFileAction_OK, "OK"); // a
+dismissDialog("Unable to Open File"); // ag
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Non-module Files, InstructionMemory_tb.v]", 11, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_REPLACE_FILE, "Replace File..."); // ak
+// Run Command: PAResourceCommand.PACommandNames_SRC_REPLACE_FILE
+setFileChooser("C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/InstructionMemory_tb.v");
+// 'dN' command handler elapsed time: 6 seconds
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/InstructionMemory_tb.v -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/InstructionMemory_tb.v -filesets [get_filesets *] 
+// Tcl Message: INFO: [filemgmt 20-762] Replacing file 'C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/InstructionMemory_tb.v' with file 'C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/InstructionMemory_tb.v'. 
+// bz (cr):  Replace File : addNotify
+dismissDialog("Replace File"); // bz
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Non-module Files, PCAdder_tb.v]", 11, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_REPLACE_FILE, "Replace File..."); // ak
+// Run Command: PAResourceCommand.PACommandNames_SRC_REPLACE_FILE
+setFileChooser("C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/PCAdder_tb.v");
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/PCAdder_tb.v -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/PCAdder_tb.v -filesets [get_filesets *] 
+// Tcl Message: INFO: [filemgmt 20-762] Replacing file 'C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/PCAdder_tb.v' with file 'C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/PCAdder_tb.v'. 
+// bz (cr):  Replace File : addNotify
+dismissDialog("Replace File"); // bz
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Non-module Files, ProgramCounter_tb.v]", 11, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Non-module Files, ProgramCounter_tb.v]", 11, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_REPLACE_FILE, "Replace File..."); // ak
+// Run Command: PAResourceCommand.PACommandNames_SRC_REPLACE_FILE
+setFileChooser("C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/ProgramCounter_tb.v");
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_files -from_files C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/ProgramCounter_tb.v -to_files C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/ProgramCounter_tb.v -filesets [get_filesets *] 
+// Tcl Message: INFO: [filemgmt 20-762] Replacing file 'C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/1-InstructionFetchUnit/ProgramCounter_tb.v' with file 'C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/ProgramCounter_tb.v'. 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v)]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ak
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cr):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/ajsop/Documents/GitHub/project_1/project_1.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'TopDesign' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ajsop/Documents/GitHub/project_1/project_1.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj TopDesign_vlog.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '3' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ajsop/Documents/GitHub/project_1/project_1.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto 90fe0fb9da234456972bf457447bee55 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopDesign_behav xil_defaultlib.TopDesign xil_defaultlib.glbl -log elaborate.log" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: Vivado Simulator 2020.2 Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 90fe0fb9da234456972bf457447bee55 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopDesign_behav xil_defaultlib.TopDesign xil_defaultlib.glbl -log elaborate.log  Using 2 slave threads. Starting static elaboration Pass Through NonSizing Optimizer ERROR: [VRFC 10-3180] cannot find port 'Reset' on this module [C:/Users/ajsop/Documents/GitHub/project_1/project_1.srcs/sources_1/new/TopDesign.v:18] ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed. 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-99] Step results log file:'C:/Users/ajsop/Documents/GitHub/project_1/project_1.sim/sim_1/behav/xsim/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/ajsop/Documents/GitHub/project_1/project_1.sim/sim_1/behav/xsim/elaborate.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1005.582 ; gain = 0.000 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 12 seconds
+// Elapsed time: 13 seconds
+selectButton("OptionPane.button", "OK"); // JButton
+// a (cr): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OPEN_MESSAGES_VIEW, "Open Messages View"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Critical Messages"); // a
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1, [VRFC 10-3180] cannot find port 'Reset' on this module [C:/Users/ajsop/Documents/GitHub/project_1/project_1.srcs/sources_1/new/TopDesign.v:18]. ]", 9, false); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Project 1-311] Could not find the file 'C:/Users/ajsop/Documents/GitHub/OneDrive/Desktop/Resources/4-ClockDivider/ClkDiv.v', nor could it be found using path 'C:/Users/Yaole/OneDrive/Desktop/Resources/4-ClockDivider/ClkDiv.v'.. ]", 3, true); // ah - Node
+// Elapsed time: 48 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v), clk_div : ClkDiv (ClkDiv.v)]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v), clk_div : ClkDiv (ClkDiv.v)]", 2, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(PAResourceQtoS.SrcMenu_OPEN_SELECTED_SOURCE_FILES, "Open File"); // ak
+selectCodeEditor("ClkDiv.v", 426, 841); // bP
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ak
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cr):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/ajsop/Documents/GitHub/project_1/project_1.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'TopDesign' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ajsop/Documents/GitHub/project_1/project_1.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj TopDesign_vlog.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ajsop/Documents/GitHub/project_1/project_1.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto 90fe0fb9da234456972bf457447bee55 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopDesign_behav xil_defaultlib.TopDesign xil_defaultlib.glbl -log elaborate.log" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: Vivado Simulator 2020.2 Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 90fe0fb9da234456972bf457447bee55 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopDesign_behav xil_defaultlib.TopDesign xil_defaultlib.glbl -log elaborate.log  Using 2 slave threads. Starting static elaboration Pass Through NonSizing Optimizer ERROR: [VRFC 10-3180] cannot find port 'Reset' on this module [C:/Users/ajsop/Documents/GitHub/project_1/project_1.srcs/sources_1/new/TopDesign.v:18] ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed. 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds INFO: [USF-XSim-99] Step results log file:'C:/Users/ajsop/Documents/GitHub/project_1/project_1.sim/sim_1/behav/xsim/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/ajsop/Documents/GitHub/project_1/project_1.sim/sim_1/behav/xsim/elaborate.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 7 seconds
+selectButton("OptionPane.button", "OK"); // JButton
+// a (cr): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // a
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/ajsop/Documents/GitHub/project_1/project_1.sim/sim_1/behav/xsim/elaborate.log' file for more information.. ]", 6); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ac
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ah
+selectMenuItem(PAResourceCommand.PACommandNames_NEW_PROJECT, "New..."); // ak
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ac
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+// f (cr): New Project: addNotify
+selectButton("NEXT", "Next >"); // JButton
+selectButton("NEXT", "Next >"); // JButton
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a
+// Elapsed time: 10 seconds
+String[] filenames31467 = {"C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/InstructionFetchUnit.v", "C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/InstructionMemory.v", "C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/PCAdder.v", "C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/ProgramCounter.v"};
+setFileChooser(filenames31467);
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a
+setFileChooser("C:/Users/ajsop/Documents/GitHub/Lab1/4-ClockDivider/ClkDiv.v");
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a
+String[] filenames16706 = {"C:/Users/ajsop/Documents/GitHub/Lab1/5-Two4DigitDisplay/SevenSegment.v", "C:/Users/ajsop/Documents/GitHub/Lab1/5-Two4DigitDisplay/Two4DigitDisplay.v"};
+setFileChooser(filenames16706);
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_ADD_FILES, "Add Files"); // a
+setFileChooser("C:/Users/ajsop/Documents/GitHub/Lab1/5-Two4DigitDisplay/Two4DigitDisplay.xdc");
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_ADD_FILES, "Add Files"); // a
+// Elapsed time: 20 seconds
+dismissFileChooser();
+selectButton("NEXT", "Next >"); // JButton
+// Elapsed time: 13 seconds
+setText("PAResourceEtoH.FPGAChooser_FPGA_TABLE_SEARCH_FIELD", (String) null); // OverlayTextField
+// WARNING: HEventQueue.dispatchEvent() is taking  2169 ms.
+// Elapsed time: 186 seconds
+setText("PAResourceEtoH.FPGAChooser_FPGA_TABLE_SEARCH_FIELD", "xc7a100tcsg324-1"); // OverlayTextField
+selectTable(PAResourceEtoH.FPGAChooser_FPGA_TABLE, "xc7a100tcsg324-1 ; 324 ; 210 ; 63400 ; 126800 ; 135 ; 0 ; 240 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 6 ;  ;  ;  ;  ;  ; 0.95 ; 0.95 ; 1.05", 0, "xc7a100tcsg324-1", 0); // w
+selectTable(PAResourceEtoH.FPGAChooser_FPGA_TABLE, "xc7a100tcsg324-1 ; 324 ; 210 ; 63400 ; 126800 ; 135 ; 0 ; 240 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 6 ;  ;  ;  ;  ;  ; 0.95 ; 0.95 ; 1.05", 0, "xc7a100tcsg324-1", 0, false, false, false, false, true); // w - Double Click
+selectButton("NEXT", "Next >"); // JButton
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 104 MB. Current time: 9/4/24, 5:13:47 PM MST
+// bz (cr):  Create Project : addNotify
+selectButton("OptionPane.button", "Yes"); // JButton
+// Tcl Message: close_project 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: create_project project_2 C:/Users/ajsop/Documents/GitHub/project_2 -part xc7a100tcsg324-1 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  1666 ms.
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse {C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/ProgramCounter.v C:/Users/ajsop/Documents/GitHub/Lab1/5-Two4DigitDisplay/SevenSegment.v C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/InstructionMemory.v C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/InstructionFetchUnit.v C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/PCAdder.v C:/Users/ajsop/Documents/GitHub/Lab1/4-ClockDivider/ClkDiv.v C:/Users/ajsop/Documents/GitHub/Lab1/5-Two4DigitDisplay/Two4DigitDisplay.v} 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_files -force -norecurse 
+// Tcl Message: INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1' 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_files -fileset constrs_1 -force -norecurse C:/Users/ajsop/Documents/GitHub/Lab1/5-Two4DigitDisplay/Two4DigitDisplay.xdc 
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 269 seconds
+dismissDialog("Create Project"); // bz
+dismissDialog("New Project"); // f
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 18 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, InstructionFetchUnit (InstructionFetchUnit.v)]", 1); // D
+// Elapsed time: 20 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cr): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a
+setFileChooser("C:/Users/ajsop/Documents/GitHub/Lab1/Lab1.srcs/sources_1/new/TopDesign.v");
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 12 seconds
+dismissDialog("Add Sources"); // c
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_files -norecurse C:/Users/ajsop/Documents/GitHub/Lab1/Lab1.srcs/sources_1/new/TopDesign.v 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cr): Add Sources: addNotify
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES, "Add or create simulation sources"); // a
+selectButton("NEXT", "Next >"); // JButton
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 14 seconds
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a
+String[] filenames29306 = {"C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/InstructionMemory_tb.v", "C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/PCAdder_tb.v", "C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/ProgramCounter_tb.v"};
+setFileChooser(filenames29306);
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a
+// Elapsed time: 17 seconds
+dismissFileChooser();
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 45 seconds
+dismissDialog("Add Sources"); // c
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property SOURCE_SET sources_1 [get_filesets sim_1] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// c (cr): Add Sources: addNotify
+// bz (c):  Add Simulation Sources  : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_files -fileset sim_1 -norecurse {C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/PCAdder_tb.v C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/ProgramCounter_tb.v C:/Users/ajsop/Documents/GitHub/Lab1/1-InstructionFetchUnit/InstructionMemory_tb.v} 
+dismissDialog("Add Simulation Sources"); // bz
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ak
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cr):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/ajsop/Documents/GitHub/project_2/project_2.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'TopDesign' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ajsop/Documents/GitHub/project_2/project_2.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj TopDesign_vlog.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ajsop/Documents/GitHub/project_2/project_2.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto 42218a2aef7d4d809dc7ae921bfd1a84 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopDesign_behav xil_defaultlib.TopDesign xil_defaultlib.glbl -log elaborate.log" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: Vivado Simulator 2020.2 Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 42218a2aef7d4d809dc7ae921bfd1a84 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopDesign_behav xil_defaultlib.TopDesign xil_defaultlib.glbl -log elaborate.log  Using 2 slave threads. Starting static elaboration Pass Through NonSizing Optimizer ERROR: [VRFC 10-3180] cannot find port 'Reset' on this module [C:/Users/ajsop/Documents/GitHub/project_2/project_2.srcs/sources_1/imports/new/TopDesign.v:18] ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed. 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds INFO: [USF-XSim-99] Step results log file:'C:/Users/ajsop/Documents/GitHub/project_2/project_2.sim/sim_1/behav/xsim/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/ajsop/Documents/GitHub/project_2/project_2.sim/sim_1/behav/xsim/elaborate.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 19 seconds
+// Elapsed time: 19 seconds
+selectButton("OptionPane.button", "OK"); // JButton
+// a (cr): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // a
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aK
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [USF-XSim-69] 'compile' step finished in '2' seconds. ]", 14); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1, [VRFC 10-3180] cannot find port 'Reset' on this module [C:/Users/ajsop/Documents/GitHub/project_2/project_2.srcs/sources_1/imports/new/TopDesign.v:18]. ]", 21, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\ajsop\Documents\GitHub\project_2\project_2.srcs\sources_1\imports\new\TopDesign.v;-;;-;16;-;line;-;18;-;;-;16;-;"); // ah
+selectCodeEditor("TopDesign.v", 382, 402); // bP
+selectCodeEditor("TopDesign.v", 143, 314); // bP
+selectCodeEditor("TopDesign.v", 677, 531); // bP
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v)]", 1); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v), clk_div : ClkDiv (ClkDiv.v)]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v), clk_div : ClkDiv (ClkDiv.v)]", 2, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v)]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v)]", 1, true, false, false, false, false, true); // D - Double Click - Node
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ak
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cr):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/ajsop/Documents/GitHub/project_2/project_2.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'TopDesign' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ajsop/Documents/GitHub/project_2/project_2.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj TopDesign_vlog.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ajsop/Documents/GitHub/project_2/project_2.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto 42218a2aef7d4d809dc7ae921bfd1a84 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopDesign_behav xil_defaultlib.TopDesign xil_defaultlib.glbl -log elaborate.log" 
+// Tcl Message: Built simulation snapshot TopDesign_behav 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message:  ****** Webtalk v2020.2 (64-bit)   **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020   **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020     ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.  source C:/Users/ajsop/Documents/GitHub/project_2/project_2.sim/sim_1/behav/xsim/xsim.dir/TopDesign_behav/webtalk/xsim_webtalk.tcl -notrace INFO: [Common 17-206] Exiting Webtalk at Wed Sep  4 17:16:54 2024... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1005.582 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/ajsop/Documents/GitHub/project_2/project_2.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "TopDesign_behav -key {Behavioral:sim_1:Functional:TopDesign} -tclbatch {TopDesign.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2020.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// WARNING: HEventQueue.dispatchEvent() is taking  1283 ms.
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Elapsed time: 12 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: source TopDesign.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 117 MB. Current time: 9/4/24, 5:16:58 PM MST
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'TopDesign_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:14 . Memory (MB): peak = 1005.582 ; gain = 0.000 
+// 'd' command handler elapsed time: 14 seconds
+dismissDialog("Run Simulation"); // e
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 124 MB. Current time: 9/4/24, 5:17:01 PM MST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 117 MB. Current time: 9/4/24, 5:17:01 PM MST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 117 MB. Current time: 9/4/24, 5:17:01 PM MST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 117 MB. Current time: 9/4/24, 5:17:02 PM MST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 118 MB. Current time: 9/4/24, 5:17:02 PM MST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 118 MB. Current time: 9/4/24, 5:17:02 PM MST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 117 MB. Current time: 9/4/24, 5:17:02 PM MST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 118 MB. Current time: 9/4/24, 5:17:02 PM MST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 117 MB. Current time: 9/4/24, 5:17:02 PM MST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 118 MB. Current time: 9/4/24, 5:17:02 PM MST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 117 MB. Current time: 9/4/24, 5:17:02 PM MST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 117 MB. Current time: 9/4/24, 5:17:02 PM MST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 130 MB. Current time: 9/4/24, 5:17:02 PM MST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // E
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 117 MB. Current time: 9/4/24, 5:17:04 PM MST
+selectButton(RDIResource.WaveformView_GOTO_CURSOR, "Waveform Viewer_waveformgotocursor"); // E
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(RDIResource.WaveformView_GOTO_TIME_0, "Waveform Viewer_RunReset"); // E
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.WaveformView_GOTO_CURSOR, "Waveform Viewer_waveformgotocursor"); // E
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // E
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 117 MB. Current time: 9/4/24, 5:17:09 PM MST
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // E
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // E
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // E
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 117 MB. Current time: 9/4/24, 5:17:11 PM MST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, -183, -163); // n
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, -156, -559); // n
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 122 MB. Current time: 9/4/24, 5:17:13 PM MST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 117 MB. Current time: 9/4/24, 5:17:14 PM MST
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 120 MB. Current time: 9/4/24, 5:17:14 PM MST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 118 MB. Current time: 9/4/24, 5:17:14 PM MST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 118 MB. Current time: 9/4/24, 5:17:14 PM MST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 118 MB. Current time: 9/4/24, 5:17:14 PM MST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 119 MB. Current time: 9/4/24, 5:17:14 PM MST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 118 MB. Current time: 9/4/24, 5:17:15 PM MST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 118 MB. Current time: 9/4/24, 5:17:15 PM MST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 118 MB. Current time: 9/4/24, 5:17:15 PM MST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 121 MB. Current time: 9/4/24, 5:17:15 PM MST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 118 MB. Current time: 9/4/24, 5:17:15 PM MST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 118 MB. Current time: 9/4/24, 5:17:16 PM MST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 118 MB. Current time: 9/4/24, 5:17:16 PM MST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 118 MB. Current time: 9/4/24, 5:17:16 PM MST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // E
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 118 MB. Current time: 9/4/24, 5:17:18 PM MST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run 20 us 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // E
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 124 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k
+closeTask("Simulation", "Behavioral Simulation - Functional - sim_1 - TopDesign", "DesignTask.SIMULATION");
+// A (cr): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// [GUI Memory]: 175 MB (+3428kb) [00:16:39]
+// bz (cr):  Close : addNotify
+// TclEventType: WAVEFORM_CLOSE_WCFG
+dismissDialog("Confirm Close"); // A
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// WARNING: HEventQueue.dispatchEvent() is taking  1195 ms.
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: close_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1005.582 ; gain = 0.000 
+dismissDialog("Close"); // bz
+// Elapsed time: 91 seconds
+selectCodeEditor("TopDesign.v", 139, 316); // bP
+selectCodeEditor("TopDesign.v", 333, 450); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // m
+// Elapsed time: 23 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v)]", 1); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v), ifu : InstructionFetchUnit (InstructionFetchUnit.v)]", 3); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v), ifu : InstructionFetchUnit (InstructionFetchUnit.v), PC : ProgramCounter (ProgramCounter.v)]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v), ifu : InstructionFetchUnit (InstructionFetchUnit.v), PC : ProgramCounter (ProgramCounter.v)]", 4, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v)]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v)]", 1, true, false, false, false, false, true); // D - Double Click - Node
+selectCodeEditor("TopDesign.v", 238, 812); // bP
+selectCodeEditor("TopDesign.v", 489, 867); // bP
+selectCodeEditor("TopDesign.v", 460, 844); // bP
+// Elapsed time: 31 seconds
+selectCodeEditor("TopDesign.v", 115, 813); // bP
+// Elapsed time: 52 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v)]", 1); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v), ifu : InstructionFetchUnit (InstructionFetchUnit.v)]", 3, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v), ifu : InstructionFetchUnit (InstructionFetchUnit.v)]", 3, true, false, false, false, false, true); // D - Double Click - Node
+selectCodeEditor("InstructionFetchUnit.v", 251, 184); // bP
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v), ifu : InstructionFetchUnit (InstructionFetchUnit.v)]", 3); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v), ifu : InstructionFetchUnit (InstructionFetchUnit.v), IM : InstructionMemory (InstructionMemory.v)]", 6, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v), ifu : InstructionFetchUnit (InstructionFetchUnit.v), IM : InstructionMemory (InstructionMemory.v)]", 6, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("InstructionMemory.v", 478, 314); // bP
+selectCodeEditor("InstructionMemory.v", 280, 917); // bP
+selectCodeEditor("InstructionMemory.v", 266, 905); // bP
+selectCodeEditor("InstructionMemory.v", 568, 864); // bP
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v), ifu : InstructionFetchUnit (InstructionFetchUnit.v), Adder : PCAdder (PCAdder.v)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v), ifu : InstructionFetchUnit (InstructionFetchUnit.v), Adder : PCAdder (PCAdder.v)]", 5, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v), ifu : InstructionFetchUnit (InstructionFetchUnit.v)]", 3, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v), ifu : InstructionFetchUnit (InstructionFetchUnit.v)]", 3, true, false, false, false, false, true); // D - Double Click - Node
+// Elapsed time: 32 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v), display : Two4DigitDisplay (Two4DigitDisplay.v)]", 4, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v), display : Two4DigitDisplay (Two4DigitDisplay.v)]", 4, true, false, false, false, false, true); // D - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v), display : Two4DigitDisplay (Two4DigitDisplay.v)]", 4, true); // D - Node
+selectCodeEditor("Two4DigitDisplay.v", 407, 57); // bP
+// Elapsed time: 17 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 6); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Two4DigitDisplay.xdc]", 8, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Two4DigitDisplay.xdc]", 8, false, false, false, false, false, true); // D - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Two4DigitDisplay.v", 7); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Two4DigitDisplay.xdc", 8); // m
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v), display : Two4DigitDisplay (Two4DigitDisplay.v), m1 : SevenSegment (SevenSegment.v)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v), display : Two4DigitDisplay (Two4DigitDisplay.v), m1 : SevenSegment (SevenSegment.v)]", 5, false, false, false, false, false, true); // D - Double Click
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v), display : Two4DigitDisplay (Two4DigitDisplay.v)]", 4, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v), display : Two4DigitDisplay (Two4DigitDisplay.v)]", 4, true, false, false, false, false, true); // D - Double Click - Node
+// Elapsed time: 82 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SevenSegment.v", 9); // m
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v), display : Two4DigitDisplay (Two4DigitDisplay.v)]", 4); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Two4DigitDisplay.xdc]", 8, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Two4DigitDisplay.xdc]", 8, false, false, false, false, false, true); // D - Double Click
+// Elapsed time: 28 seconds
+selectCodeEditor("Two4DigitDisplay.xdc", 574, 379); // bP
+selectCodeEditor("Two4DigitDisplay.xdc", 676, 388); // bP
+// Elapsed time: 85 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Two4DigitDisplay.v", 7); // m
+// Elapsed time: 22 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "InstructionMemory.v", 5); // m
+selectCodeEditor("InstructionMemory.v", 396, 678); // bP
+// Elapsed time: 11 seconds
+selectCodeEditor("InstructionMemory.v", 400, 674); // bP
+// Elapsed time: 13 seconds
+selectCodeEditor("InstructionMemory.v", 397, 683); // bP
+selectCodeEditor("InstructionMemory.v", 540, 671); // bP
+selectCodeEditor("InstructionMemory.v", 892, 615); // bP
+selectCodeEditor("InstructionMemory.v", 507, 680); // bP
+selectCodeEditor("InstructionMemory.v", 702, 902); // bP
+selectCodeEditor("InstructionMemory.v", 391, 669); // bP
+selectCodeEditor("InstructionMemory.v", 595, 677); // bP
+// Elapsed time: 16 seconds
+selectCodeEditor("InstructionMemory.v", 624, 855); // bP
+// Elapsed time: 48 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Two4DigitDisplay.v", 7); // m
+// Elapsed time: 61 seconds
+selectCodeEditor("Two4DigitDisplay.v", 727, 548); // bP
+// Elapsed time: 42 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SevenSegment.v", 9); // m
+// Elapsed time: 38 seconds
+selectCodeEditor("SevenSegment.v", 1446, 151); // bP
+typeControlKey((HResource) null, "SevenSegment.v", 'c'); // bP
+// Elapsed time: 34 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "InstructionMemory.v", 5); // m
+selectCodeEditor("InstructionMemory.v", 175, 679); // bP
+selectCodeEditor("InstructionMemory.v", 505, 681); // bP
+selectCodeEditor("InstructionMemory.v", 399, 741, false, false, false, true, false); // bP - Popup Trigger
+selectCodeEditor("InstructionMemory.v", 200, 775); // bP
+// Elapsed time: 10 seconds
+selectCodeEditor("InstructionMemory.v", 462, 679); // bP
+selectCodeEditor("InstructionMemory.v", 406, 681); // bP
+selectCodeEditor("InstructionMemory.v", 755, 850); // bP
+selectCodeEditor("InstructionMemory.v", 473, 885); // bP
+selectCodeEditor("InstructionMemory.v", 384, 678); // bP
+selectCodeEditor("InstructionMemory.v", 436, 672); // bP
+// Elapsed time: 10 seconds
+selectCodeEditor("InstructionMemory.v", 731, 928); // bP
+// Elapsed time: 34 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SevenSegment.v", 9); // m
+// Elapsed time: 30 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Two4DigitDisplay.v", 7); // m
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "InstructionMemory.v", 5); // m
+// Elapsed time: 10 seconds
+selectCodeEditor("InstructionMemory.v", 384, 679); // bP
+// Elapsed time: 164 seconds
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, false); // g: FALSE
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // g: FALSE
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.. ]", 3, false); // ah
+// Elapsed time: 202 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ProgramCounter.v", 3); // m
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v), ifu : InstructionFetchUnit (InstructionFetchUnit.v)]", 3); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v), ifu : InstructionFetchUnit (InstructionFetchUnit.v), Adder : PCAdder (PCAdder.v)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopDesign (TopDesign.v), ifu : InstructionFetchUnit (InstructionFetchUnit.v), Adder : PCAdder (PCAdder.v)]", 5, false, false, false, false, false, true); // D - Double Click
+// Elapsed time: 26 seconds
+selectCodeEditor("PCAdder.v", 525, 907); // bP
+// Elapsed time: 11 seconds
+selectCodeEditor("PCAdder.v", 562, 918); // bP
+selectCodeEditor("PCAdder.v", 685, 917); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "InstructionMemory.v", 5); // m
+// Elapsed time: 25 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PCAdder.v", 6); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "InstructionMemory.v", 5); // m
+selectCodeEditor("InstructionMemory.v", 311, 676); // bP
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 114 MB. Current time: 9/4/24, 5:47:23 PM MST
+// Elapsed time: 687 seconds
+selectCodeEditor("InstructionMemory.v", 571, 915); // bP
+selectCodeEditor("InstructionMemory.v", 675, 906); // bP
+// Elapsed time: 91 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 12); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 13); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TopDesign (TopDesign.v)]", 14, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TopDesign (TopDesign.v)]", 14, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TopDesign (TopDesign.v)]", 14, true, false, false, false, false, true); // D - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, InstructionMemory_tb (InstructionMemory_tb.v)]", 18, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, PCAdder_tb (PCAdder_tb.v)]", 19, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, ProgramCounter_tb (ProgramCounter_tb.v)]", 20, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TopDesign (TopDesign.v)]", 14, true); // D - Node
+// Elapsed time: 405 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "InstructionFetchUnit.v", 4); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "InstructionMemory.v", 5); // m
+// Elapsed time: 114 seconds
+selectCodeEditor("InstructionMemory.v", 544, 908); // bP
+selectCodeEditor("InstructionMemory.v", 671, 890); // bP
+selectCodeEditor("InstructionMemory.v", 647, 914); // bP
+// Elapsed time: 20 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("InstructionMemory.v", 674, 899); // bP
+// Elapsed time: 120 seconds
+selectCodeEditor("InstructionMemory.v", 546, 916); // bP
+selectCodeEditor("InstructionMemory.v", 638, 893); // bP
+// Elapsed time: 53 seconds
+selectCodeEditor("InstructionMemory.v", 624, 911); // bP
+selectCodeEditor("InstructionMemory.v", 418, 915); // bP
+selectCodeEditor("InstructionMemory.v", 681, 921); // bP
+// WARNING: HEventQueue.dispatchEvent() is taking  7999184 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1187 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1786 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2997 ms. Increasing delay to 8991 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 105 MB. Current time: 9/4/24, 8:29:39 PM MST
+// WARNING: HEventQueue.dispatchEvent() is taking  2547 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 5550 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 5550 ms to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 104 MB. Current time: 9/5/24, 8:09:49 AM MST
+// WARNING: HEventQueue.dispatchEvent() is taking  1217 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2828 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1015 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1825 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1484 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 774 ms to process. Increasing delay to 2000 ms.
+// Elapsed time: 50453 seconds
+closeMainWindow("project_2 - [C:/Users/ajsop/Documents/GitHub/project_2/project_2.xpr] - Vivado 2020.2"); // cr
+// Run Command: PAResourceCommand.PACommandNames_EXIT
+// am (cr): Save Project: addNotify
